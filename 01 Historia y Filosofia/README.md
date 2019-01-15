@@ -88,29 +88,6 @@ GNU y la Free Software Foundation.
 
 ![Richard M. Stallman. Fundador del proyecto GNU](../res/img/RMS.jpg)
 
-# Las 4 libertades del software libre
-
-- Libertad 0: Libertad de ejecutar el programa como lo desees, para
-cualquier propósito.
-- Libertad 1: Libertad de estudiar el programa,
-cómo funciona y modificarlo para tus propias necesidades. (El acceso
-al código fuente es prerequisito para esta libertad)
-- Libertad 2:
-Libertad de redistribuir copias del programa, para ayudar a los demás.
-- Libertad 3: Libertad de redistribuir copias del software modificado
-a los demás para que ellos también se beneficien de tus cambios. (El
-acceso al código fuente es prerequisito para esta libertad)
-
-# La licencia GPL
-
-La licencia GPL (General Public License) es un texto legal para el uso de
-software que garantiza el respeto de las 4 libertades del software libre.
-
-Fue escrita originalmente por Richard Stallman y actualmente existen 3
-versiones del texto, siendo las últimas 2 versiones las más populares.
-
-El kernel Linux es distribuido bajo la licencia GPLv2.
-
 # MINIX
 
 Andrew Tanenbaum, un profesor de ciencias de la computación en la
