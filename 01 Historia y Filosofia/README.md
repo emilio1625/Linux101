@@ -1,11 +1,4 @@
----
-title: "GNU/Linux: Historia y filosofía"
-author: Emilio Cabrera
-theme: Pittsburgh
-colortheme_: spruce
----
-
-# UNIX
+## UNIX
 
 UNIX fue un sistema operativo (ahora es una familia de sistemas
 operativos), desarrollado desde principios de los años 70s en los
@@ -21,7 +14,7 @@ nivel (lenguaje C), por lo que fue el primer sistema operativo portable.
 
 ![Ken Thompson y Dennis Ritchie](../res/img/ken-dennis.jpg)
 
-# Diseño de UNIX
+## Diseño de UNIX
 
 UNIX fue diseñado de forma modular y pensado como un entorno multitarea
 y multiusuario.
@@ -34,7 +27,7 @@ un lenguaje de scripting para interactuar con el sistema
 
 [The UNIX Time-Sharing System](https://people.eecs.berkeley.edu/~brewer/cs262/unix.pdf)
 
-# Filosofía UNIX
+## Filosofía UNIX
 
 Las ideas de modularidad y minimalismo con las que Ken Thompson y Dennis
 Ritchie construyeron UNIX sirvieron como normas para el desarrollo de
@@ -44,7 +37,7 @@ Estas ideas suelen agruparse con el nombre de Filosofía UNIX y es uno de
 los paradigmas de desarrollo de software más popular entre los sistemas
 basados en UNIX.
 
-## Filosofía UNIX
+### Filosofía UNIX
 
 - Escribe programas que hagan una sola cosa y la hagan bien.
 - Escribe programas para que trabajen juntos.
@@ -52,7 +45,7 @@ basados en UNIX.
 
 [AT&T Archives: The UNIX Operating System](https://www.youtube.com/watch?v=tc4ROCJYbm0)
 
-# BSD
+## BSD
 
 Las primeras versiones de UNIX se distribuían con el código fuente y Bell Labs
 permitía su modificación a las universidades estadounidenses. De esta forma
@@ -68,9 +61,9 @@ del código fuente.
 
 ---
 
-![Beastie. La mascota de BSD](../res/img/beastie.png)
+![Beastie. La mascota de BSD](../res/img/beastie.png){width=80%}
 
-# El proyecto GNU
+## El proyecto GNU
 
 El proyecto GNU es un movimiento de software libre que busca crear un
 sistema operativo basado en UNIX completamente libre, fue fundado por
@@ -86,9 +79,9 @@ GNU y la Free Software Foundation.
 
 ---
 
-![Richard M. Stallman. Fundador del proyecto GNU](../res/img/RMS.jpg)
+![Richard M. Stallman. Fundador del proyecto GNU](../res/img/RMS.jpg){width=80%}
 
-# MINIX
+## MINIX
 
 Andrew Tanenbaum, un profesor de ciencias de la computación en la
 Universidad de Amsterdam escribió en 1987 un libro sobre sistemas
@@ -103,7 +96,11 @@ operativo y fue portado a varias plataformas.
 Sin embargo, no era en el momento de su publicación software libre o
 comercialmente redistribuible.
 
-# LINUX
+---
+
+![Andrew S. Tanenbaum](../res/img/tanenbaum.jpg){width=80%}
+
+## LINUX
 
 En 1991 Linus Torvalds, un usuario de MINIX, comenzó a trabajar en su propio
 kernel para la arquitectura x86 de Intel.
@@ -115,7 +112,7 @@ El desarrollo de Linux permitió la creación del primer sistema operativo libre
 de problemas legales con cualquier compañía que reclamara derechos sobre el
 codigo de UNIX.
 
-# Distribuciones
+## Distribuciones
 
 Una distribucion de Linux es una colección de software basada en el kernel de
 Linux y un gestor de paquetes de software.
@@ -129,5 +126,16 @@ de computadora (laptop, escritorio, embebidas, antiguas) o un nicho de
 uso en especifico (routers, IoT, Educación, Ciencia, Edición de Audio,
 Video, etc).
 
-
+---
+title: "GNU/Linux: Historia y filosofía"
+author: Emilio Cabrera
+institute: Laboratorio de Investigación y Desarrollo de Software Libre
+logo: '../res/img/lidsol.png'
+theme: PaloAlto
+colortheme: spruce
+navigation: horizontal
+output:
+  beamer_presentation:
+    slide_level: 2
+---
 
